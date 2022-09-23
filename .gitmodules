@@ -1,0 +1,3 @@
+[submodule "anker-demo-dist"]
+	path = anker-demo-dist
+	url = git@github.com:0xkhan/anker-demo-dist.git
