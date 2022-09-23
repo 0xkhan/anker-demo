@@ -8,7 +8,7 @@
     "watch": "webpack -w",
     "bundle": "webpack --config webpack.config.js --no-devtool --env EnvMode=prod",
     "copy-data": "cp data.json dist/",
-    "copy-dist": "cp -r dist/* anker-dist/",
+    "copy-dist": "cp -r dist/* anker-demo-dist/",
     "start": "npm-run-all --parallel devServer watch",
     "build": "npm-run-all bundle copy-dist"
   },
