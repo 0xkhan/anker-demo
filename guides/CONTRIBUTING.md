@@ -34,82 +34,64 @@ The process described here have several goals:
 * Follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines
 
 ## How to Contribute
-* Please create an [issue](https://github.com/ankerapp/anker-app/issues) before creating a pull request.
+* Please create an [issue](https://github.com/ankerapp/anker-themes/issues) before creating a pull request.
+<!-- * Please create an [issue](https://github.com/ankerapp/anker-app/issues) . -->
 * Fork the repository and create a branch for any issue that you are working on.
 * Create a pull request which will be reviewed and suggestions would be provided.
 * Add Screenshots to help us know what changes you have done.
 
 ## How to Make a Pull Request
+1. Fork [this](https://github.com/ankerapp/anker-themes) repository. 
 
-1. Fork the right repository
-    * Fork [this](https://github.com/ankerapp/anker-app) repository
-    * If you want to work on the main repo then fork the repository
-        above
-    * If you want to make only SCSS themes then also fork [this](https://github.com/ankerapp/anker-themes) repo
-
-2. Clone the forked repository
+2. Clone the forked repository using your terminal.
 ```bash
-git clone https://github.com/<your-username>/anker-app.git
 git clone https://github.com/<your-username>/anker-themes.git
 ```
 
 3. Navigate to the project directory
 ```bash
-cd anker-app
+cd anker-themes
 ```
 
 4. Create a new branch
 Kindly give your branch a more descriptive name like `feat-add-dropdown` instead of `patch-1`.
 
-You could follow this convention. Some ideas to get you started:
-* Feature Updates: `feat-<2-3-Words-Description>-<ISSUE_NO>`
-* Bug Fixes: `fix-<2-3-Words-Description>-<ISSUE_NO>`
-* Documentation: `docs-<2-3-Words-Description>-<ISSUE_NO>`
-* And so on...
+   You could follow this convention. Some ideas to get you started:
+   * Feature Updates: `feat-<2-3-Words-Description>-<ISSUE_NO>`
+   * Bug Fixes: `fix-<2-3-Words-Description>-<ISSUE_NO>`
+   * Documentation: `docs-<2-3-Words-Description>-<ISSUE_NO>`
+   * And so on...
 ```bash
 git checkout -b your-branch-name
 ```
 
-5. Add your changes, please follow the following guidelines
-* Search previous Pull Requests or Issues before making new one, as yours may
-    be a duplicate.
-* There are two things you can work on the [main
-    app](https://github.com/ankerapp/anker-app) and [themes](https://github.com/ankerapp/anker-themes)
-* Changes to the main app will be reviewed thoroughly so make sure you only
-    make changes if there is an Issue for it. The Issues are created by the
-    maintainers. Please don't make any Issue regarding the main app before
-    discussing it with the maintainers.
-* If you have an idea for a theme you can create an Issue for it without
-    discussing it with the maintainers. Following guidelines apply to submitting
-    a theme:
-    * At the moment only SCSS based themes can be made
-    * Please make sure your theme follow the instructions mentioned
-        [here](https://github.com/ankerapp/anker-app#how)
-    * When you're done with the theme please follow guidelines below:
-        * Give your theme a name e.g `_example.scss`. For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/themes/hacktoberfest-2022) repository
-        * Create a directory for your theme with that name
-        * Put the theme file in the directory
-        * Take screenshots for different devices
-        * Create a `README.md` file
-        * Put your screenshots in `README.md` file also your instructions
-            if needed
-        * For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/themes/hacktoberfest-2022) repository
-
-6. Stage your changes and commit
+5. Go to the **themes** directory
 ```bash
-git add . # Stages all the changes
+cd themes
+```
+
+6. To create your theme follow the guideines
+     * Give your theme a name e.g `_example.scss`. For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/hacktoberfest-2022) repository
+     * Create a directory for your theme with that name
+     * Put the theme file in the directory
+     * Take screenshots for different devices
+     * Create a `README.md` file
+     * Put your screenshots in `README.md` file also your instructions if needed
+
+7. Stage your changes and commit
+```bash
+git add .
 git commit -m "<your_commit_message>"
 ```
-Follow our commit guide from above!
 
-7. Push your local commits to the remote repository
+8. Push your local commits to the remote repository
 ```bash
 git push origin <your-branch-name>
 ```
 
-8. Create a new [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from `<your-branch-name>`
+9. Create a new [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from `<your-branch-name>`
 
-9. Congratulations! You've made your first pull request! Now, you should just wait until the maintainers review your pull request.
+10. Congratulations! You've made your first pull request! Now, you should just wait until the maintainers review your pull request.
 
 # Important
 
