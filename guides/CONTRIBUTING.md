@@ -80,20 +80,20 @@ git checkout -b your-branch-name
     maintainers. Please don't make any Issue regarding the main app before
     discussing it with the maintainers.
 * If you have an idea for a theme you can create an Issue for it without
-    discussing it with the maintainers. Following guidlines apply to submitting
+    discussing it with the maintainers. Following guidelines apply to submitting
     a theme:
     * At the moment only SCSS based themes can be made
     * Please make sure your theme follow the instructions mentioned
         [here](https://github.com/ankerapp/anker-app#how)
     * When you're done with the theme please follow guidelines below:
-        * Give your theme a name e.g `_example.scss`. For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/hacktoberfest-2022) repository
+        * Give your theme a name e.g `_example.scss`. For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/themes/hacktoberfest-2022) repository
         * Create a directory for your theme with that name
         * Put the theme file in the directory
         * Take screenshots for different devices
         * Create a `README.md` file
         * Put your screenshots in `README.md` file also your instructions
             if needed
-        * For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/hacktoberfest-2022) repository
+        * For reference see [this](https://github.com/ankerapp/anker-themes/tree/master/themes/hacktoberfest-2022) repository
 
 6. Stage your changes and commit
 ```bash
